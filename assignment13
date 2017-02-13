@@ -1,0 +1,58 @@
+pwd :- pwd is Print working directory. What else can be said about the good old pwd who has been printing the current directory name for ages.
+vi :- vi is actaully the command which starts the visual mode of ex, the landmark editing program developed by Joy.
+       vi [ -| -s ] [-l] [-L] [-R] [ -r [ filename ] ] [-S] [-t tag] [-v] [-V]
+        [-x] [-w] [-n ] [-C] [+command | -c command ] filename
+        
+touch :- touch changes file timestamps.
+          The touch command updates the access and modification times of each FILE to the current system time.If you specify a FILE that does not already exist, touch creates an empty file with that name (unless the -c or -h options are specified; see below).
+          touch file.txt
+          
+mkdir :-creates a directory called temp under your home directory.
+        $ mkdir ~/temp
+        Create nested directories using one mkdir command. If any of these directories exist already, it will not display any error. If any of these directories doesn’t exist, it will create them.
+        $ mkdir -p dir1/dir2/dir3/dir4/
+       
+rm :- Get confirmation before removing the file.
+      $ rm -i filename.txt
+      Print the filename and get confirmation before removing the file
+      $ rm -i file*
+      
+ ls :-Display filesize in human readable format (e.g. KB, MB etc.,) 
+      $ ls -lh
+-rw-r----- 1 ramesh team-dev 8.9M Jun 12 15:27 arch-linux.txt.gz
+
+echo :- echo displays a line of text.
+       echo [SHORT-OPTION]... [STRING]...
+        echo LONG-OPTION
+
+cat :-You can view multiple files at the same time. Following example prints the content of file1 followed by file2 to stdout.
+      $ cat file1 file2
+
+who: It displays who logged on to the system.
+
+cd: It is used to change current directory.
+
+date: It is used to print out or change the value of system's time and date information.
+       # date -s "01/31/2010 23:59:53"
+
+cal: It is used to display the calendar.
+
+mv: That moves one or more files or directories from one place to another.
+
+cp: It used to copy files and directories.
+    $ cp -p file1 file2
+
+which: it is used to locate executables in the system.
+
+  
+
+
+
+
+
+
+
+
+
+
+<
